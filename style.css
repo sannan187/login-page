@@ -1,0 +1,101 @@
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:Georgia, 'Times New Roman', Times, serif}
+body{ display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #dfdfdf;
+}
+.container{width: 440px;
+height: 480px;
+padding: 30px;
+/* background-color: aqua; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #dfdfdf;}
+
+.header{text-align: center;
+margin: 20px 0 40px 0;}
+
+.header header{color: #333;
+ font-weight: 600;
+ font-size: 30px;
+ }
+.input-field{width: 100%;
+height: 60px;
+font-size: 17px;
+padding: 0 25px;
+margin-bottom:15px ;
+border-radius: 30px;
+border: none;
+box-shadow:0px 5px 10px 1px rgba(0,0,0, 0.05) ;
+outline: none;
+transition: .3s;
+}
+.input-field:hover{background:#dfdfdf;
+    transform:scale(1.05,1);}
+
+::placeholder{font-weight: 500;
+color: #222;}
+.input:focus{width: 105%;}
+
+.forgot{display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+section{display: flex;
+align-items: center;
+font-size: 14px;
+color: #555;}
+
+#Remember{margin-right: 10px;}
+a{text-decoration:none ;
+}
+a{text-decoration: none;}
+section a{color: #555;}
+
+a:hover{text-decoration: underline;}
+#Forget{margin-left: 30px;}
+.submit-button{position: relative;}
+.submit-button{width: 100%;
+ height: 60px;
+background: #222;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+transition: .3s;}
+
+.submit-button label{position: absolute;
+top: 45%;
+left: 50%;
+color: #fff;
+-webkit-transform: translate(-50%,-50%);
+-ms-transform: translate3d(-50%,-50%);
+transform: translate(-50%,-50%);
+cursor: pointer;}
+.submit-button:hover{background: #000;
+transform:scale(1.05,1);}
+
+.sign-up{text-align: center;
+font-size: 15px;
+margin-top: 20px;
+}
+
+.sign-up a{color: #000;
+font-weight: 600;}
+
+/* First project done Yeah..... */
+
+
+
+
+
+
+
+
